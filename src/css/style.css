@@ -305,7 +305,7 @@ main {
 
 /* PROJETOS */
 #div8{
-    border: 1px solid black;
+
     width: 99%;
     height: 100%;
     margin-top:30px ;
@@ -316,7 +316,7 @@ main {
 }
 
 #div9{
-    border: 1px solid black;
+
     width: 50%;
     height: 100%;  
   
@@ -343,7 +343,7 @@ main {
 
 @media screen and (max-width: 1440px) {
     #div9{
-        border: 1px solid black;
+      
         width: 50%;
         height: 100%;  
       
@@ -363,7 +363,7 @@ main {
 
 @media screen and (max-width: 981px) {
     #div9{
-        border: 1px solid black;
+
         width: 50%;
         height: 100%;  
       
@@ -379,7 +379,7 @@ main {
 
 @media screen and (max-width: 620px) {
     #div9{
-        border: 1px solid black;
+   
         width: 50%;
         height: 100%;  
       
@@ -395,7 +395,7 @@ main {
 
 @media screen and (max-width: 400px) {
     #div9{
-        border: 1px solid black;
+       
         width: 50%;
         height: 100%;  
       
