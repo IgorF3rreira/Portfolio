@@ -37,8 +37,8 @@
     z-index: 999;
 }
 
-#topNav>a {
-    padding: 18px;
+#topNav a {
+    padding: 16px;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.502);
     font-size: 20px;
@@ -48,6 +48,17 @@
 
 #navLink:hover {
     color: white;
+}
+
+@media screen and (max-width: 325px) {
+    #topNav a {
+        padding: 6px;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.502);
+        font-size: 20px ;
+        position: relative;
+        bottom: -15px;
+    }
 }
 /* //////////////////////////////////////////////////////////// */
 
@@ -59,6 +70,9 @@
     display: flex;
     align-items: center ;
     justify-content: center;
+}
+@media screen and (mAX-width: 325px) {
+
 }
 
 #div1{
@@ -115,6 +129,16 @@ padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight:bold;
 }
+
+@media screen and (max-width: 325px) {
+    #div2{
+        display: inline-block;
+        width: 120px;
+        height: 100px;
+        padding: 20px;
+        }
+}
+
 
 /* //////////////////////////////////////////////////////////////////// */
 
@@ -272,7 +296,7 @@ main {
 
 #div7{
     border-radius: 50px ;
-    border: 1px solid black;
+   
     width: 50%;
     height: 100%;
 }
