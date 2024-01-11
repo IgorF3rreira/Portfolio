@@ -29,17 +29,17 @@
 <body>
 
     <!-- GIF DE SIMULAÇÃO DE CARREGAMENTO  -->
-    <div id="aguarde">
+    <!-- <div id="aguarde">
         <img src="src/img/aguarde1.gif">
-    </div>
+    </div> -->
 
 
     <!-- DIV PARA A SIMULAÇÃO DE CARREGAMENTO DE SITE -->
-    <div id="site">
+    <div style="display: block;" id="site">
 
         <!-- BARRA DE NAVEGAÇÃO -->
         <nav id="topNav">
-            <a id="navLink" href="#home">Home</a>
+            
             <a id="navLink" href="#sobre">Sobre</a>
             <a id="navLink" href="#portfolio">Portfólio</a>
             <a id="navLink" href="#contato">Contato</a>
@@ -47,23 +47,7 @@
         <!-- //////////////////////////////////////////// -->
 
         <!-- INFO SOBRE O PORTFÓLIO -->
-        <div id="home">
-            <div id="div0">
-                <div id="div1">
-
-                    <div id="div2">
-                        <img src="src/img/responsivo.jpg" alt="responsivo" title="responsivo">
-                        <p>Site responsivo para você acessar por todos os tipos de dispositivos</p>
-                    </div>
-
-                    <div id="div3">
-                        <img src="src/img/intuitivo.jpg" alt="intuitivo" title="intuitivo">
-                        <p>Site intuitivo em que você tem facil acesso as informações</p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
+     
 
 
         <div id="sobre">
@@ -94,7 +78,20 @@
                         conhecimentos e
                         Aprendizado constante. </p>
                 </aside>
-            </div> <br> <br> <br>
+
+            </div> 
+            <div style="width: 100%;  margin-top: 8%; text-align: center; display: block;">
+                <h3> <i class="fa-solid fa-award"></i> Certificados</h3> <br>
+
+               <h4 style="margin-top: 5px;"> <a  href="#">Manutenção de computadores</a> <br> </h4>
+               <h4  style="margin-top: 5px;"> <a href="#">Operação de redes</a> <br> </h4>
+                <h4 style="margin-top: 5px;"> <a  href="#">Excel avançado</a> <br> </h4>
+                
+
+                
+            </div>
+            
+            <br> <br> <br>
 
 
 
@@ -231,6 +228,11 @@
                             href="https://igorf3rreira.github.io/Sobre-livros/">
                             <img id="imgProj" src="src/img/projetoLivro.png" width="150px" height="150px"
                                 alt="Projeto Sobre Livros - PHP" title="Projeto Sobre Livros - PHP"> </a>
+
+                        <a target="_blank"
+                            href="https://igorferreiradev.000webhostapp.com/blocoDeNotas/index.php">
+                            <img id="imgProj" src="src/img/blocoDeNotas.jpg" width="150px" height="150px"
+                             alt="Bloco de notas virtual - PHP" title="Bloco de notas virtual - PHP"> </a>
                     </div>
 
                 </div>
@@ -246,8 +248,8 @@
             <p> <i class="fa-solid fa-envelope"></i> Email: <a
                     href="mailto:igorferreira03@outlook.com.br">igorferreira03@outlook.com.br</a> </p>
             <p> <i class="fa-solid fa-phone"></i> contato: <a href="tel: +5511948788671">(11) 94878-8671</a></p>
-            <p> <i class="fa-brands fa-github"></i> <a href="https://github.com/IgorF3rreira">GitHub</a> </p>
-            <p> <i class="fa-brands fa-linkedin"></i> <a
+            <p> <i class="fa-brands fa-github"></i> <a target="_blank" href="https://github.com/IgorF3rreira">GitHub</a> </p>
+            <p> <i class="fa-brands fa-linkedin"></i> <a target="_blank"
                     href="https://www.linkedin.com/in/igor-ferreira-05b56622a/">linkedin</a> </p>
         </footer>
         <!-- /////////////////////////////////////////////////////// -->
@@ -257,12 +259,12 @@
 
 
     <!-- SCRIPT PARA SIMULAR UMA TELA DE CARREGAMENTO -->
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         $(document).ready(function () {
             $('#aguarde').delay(2000).fadeOut('slow');
             $('#site').delay(2000).fadeIn('slow');
         })
-    </script>
+    </script> -->
 </body>
 
 </html>
